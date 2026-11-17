@@ -8,11 +8,17 @@ const Home = () => {
     return(
         <div className="min-h-screen w-full bg-blue-300 p-15">
             <h1 className="font-black text-8xl mb-5">Onthatile Tumiso Lesufi</h1>
-            <p className="font-semibold text-3xl mb-5"><Link to={"/games"} className="text-white hover:text-black">Game Designer</Link> • <Link to={"/dev"} className="text-white hover:text-black">Web/App Designer</Link></p>
+            <p className="font-semibold text-3xl mb-20"><Link to={"/games"} className="text-white hover:text-black">Game Designer</Link> • <Link to={"/dev"} className="text-white hover:text-black">Web/App Designer</Link></p>
             <div className="mb-15">
-                <p className="font-semibold text-3xl mb-2">About Me</p>
-                <p className="text-lg mb-7">Hello, I'm Onthatile Lesufi, in certain corners of cyberspace I go by MrNineFrames (or Mr.9 for short). I am currently an aspiring developer whose is studying in both the fields of web development and game development (with a minor in creative computing) at university. This Github page consists of all of my web development projects.</p>
-                <Link to={"mailto:onthatumi@outlook.com"} className="font-semibold text-xl">onthatumi@outlook.com</Link>
+                <p className="font-extrabold text-3xl mb-2 text-gray-800">About Me</p>
+                <p className="font-semibold text-lg mb-7">
+                    Hello, I'm Onthatile Lesufi, in certain corners of cyberspace I go by MrNineFrames (or Mr.9 for short).
+                    <br/> I am currently an aspiring developer whose is just about done studying in both the fields of web/app development and game development (with a minor in creative computing) at university.
+                    <br/> This site consists of all of my projects (both and app related).
+                    <br/>
+                    <br/> If you wish to offer me work, please feel free to reach out through Instagram or my email.
+                </p>
+                <Link to={"mailto:onthatumi@outlook.com"} target="_blank" className="font-bold text-2xl text-gray-100">onthatumi@outlook.com →</Link>
             </div>
             <div className="h-35 mb-12 mt-5">
                 <Link to={"https://www.instagram.com/mrnineframes/"} target="_blank" className="float-left w-35 rounded-full">
