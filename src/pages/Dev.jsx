@@ -13,10 +13,10 @@ const Dev = () => {
             <br/>
             
             <h2 className="text-4xl mb-15">Works In Progress</h2>
-            <div>
+            {/* <div>
                 <p className="font-bold text-3xl">End-2-End Timing</p>
                 
-            </div>
+            </div> */}
         </div>
     )
 }

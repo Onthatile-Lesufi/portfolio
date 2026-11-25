@@ -9,13 +9,13 @@ function App() {
 
     return (
         <>
-            <Router>
+            <HashRouter>
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="/games" element={<Games/>}/>
                     <Route path="/dev" element={<Dev/>}/>
                 </Routes>
-            </Router>
+            </HashRouter>
         </>
     )
 }
