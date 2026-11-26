@@ -9,14 +9,27 @@ const Dev = () => {
                 <button className="bg-black h-13 w-38 rounded-lg text-white hover:cursor-pointer font-bold
                  text-2xl mb-2">Github →</button>
             </Link>
-            <p>This page covers all of my app development work.<br/> This includes desktop applications, web apps as well as mobile applications.<br/>Currently this portion of the site is still under development as I have yet to complete professional jobs worthy of this section.<br/>For now feel free to page through my github for all of my front facing projects I developed as a part of my schooling.</p>
-            <br/>
+            <p className="mb-20">
+                This page covers all of my app development work.<br/> 
+                This includes desktop applications, web apps as well as mobile applications.<br/>
+                Currently this portion of the site is still under development as I have yet to complete professional jobs worthy of this section.<br/>
+                For now feel free to page through my github for all of my front facing projects I developed as a part of my schooling.
+            </p>
             
-            <h2 className="text-4xl mb-15">Works In Progress</h2>
-            {/* <div>
-                <p className="font-bold text-3xl">End-2-End Timing</p>
-                
-            </div> */}
+            <h2 className="text-4xl mb-15">Featured Works:</h2>
+            <div className=" h-75 flex items-center">
+                <p className="w-full">
+                    <p className="text-center font-bold text-4xl">Why So Empty...</p>
+                    <p className="text-center text-2xl">Fixing Right Now</p>
+                </p>
+            </div>
+            <h2 className="text-4xl mb-15">Works In Progress:</h2>
+            <div className=" h-75 flex items-center">
+                <p className="w-full">
+                    <p className="text-center font-bold text-4xl">Why So Empty...</p>
+                    <p className="text-center text-2xl">Fixing Right Now</p>
+                </p>
+            </div>
         </div>
     )
 }
